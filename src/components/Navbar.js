@@ -7,7 +7,7 @@ export default function Navbar() {
         <img src={logo} alt='logo'></img>
         <ul>
             <li>SEGREDO</li>
-            <li>Projects</li>
+            <li>SEGREDO2</li>
             <li>Contact</li>
         </ul>
 
