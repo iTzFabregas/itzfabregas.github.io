@@ -6,7 +6,7 @@ export default function Navbar() {
     <div data-aos="fade-up">
         <img src={logo} alt='logo'></img>
         <ul>
-            <li>AboutMe</li>
+            <li>SEGREDO</li>
             <li>Projects</li>
             <li>Contact</li>
         </ul>
