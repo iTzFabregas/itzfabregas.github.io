@@ -3,17 +3,26 @@ import logo from '../assets/sapo_ensaboado.png'
 
 export default function Navbar() {
   return (
-  <div className='fixed z-50 bg-dark-500 w-full top-0 left-0 px-8 py-4 lg:px-20 xl:px-36'>
-      <div className="flex justify-between items-center text-white">
-          <img src={logo} className="App-logo w-10 rounded-full" alt="logo" />
-          <ul className="hidden md:flex"> 
-          <li className="p-4"><a href="#home" className="hover:underline">About</a></li>
-          <li className="p-4"><a href="#skills" className="hover:underline">Skills</a></li>
-          <li className="p-4"><a href="#honors" className="hover:underline">Honor & Awards</a></li>
-          <li className="p-4"><a href="#certs" className="hover:underline">Certfications</a></li>
+    <nav className='fixed bg-neutral-900 bg-opacity-75 text-white w-screen'>
+      <div className='container flex justify-between items-center pt-4 pb-4 mx-auto'>
+
+        <img src={logo} alt="logo" className='h-12 rounded-full md:ml-16 ml-8' />
+
+        <div id='navbar-itens' class="hidden w-full md:block md:w-auto">
+
+          <ul className='flex gap-16'>
+            <li><a href="#about" className='hover:underline'>About</a></li>
+            <li><a href="#projects" className='hover:underline'>Projects</a></li>
+            <li><a href="#skills" className='hover:underline'>Skills</a></li>
+            <li><a href="#contact" className='hover:underline'>Contact</a></li>
           </ul>
-          <a href="google.com" rel="noreferrer" target="_blank" className=" bg-slate-500 rounded-full px-4 py-1 border border-teal-800 border border-4">Resume</a>
+
+        </div>
+
+        <a href="https://github.com/itzfabregas" className='p-3 rounded-full bg-neutral-600 border-2 border-neutral-200 md:mr-16 mr-8 hover:bg-neutral-700'>Portifolio</a>
+
       </div>
-  </div>
+    </nav>
+
   )
 }
