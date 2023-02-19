@@ -19,7 +19,7 @@ export default function Navbar() {
 
         </div>
 
-        <a href="https://github.com/itzfabregas" className='p-3 rounded-full bg-neutral-600 border-2 border-neutral-200 md:mr-16 mr-8 hover:bg-neutral-700'>Portifolio</a>
+        <a href="https://github.com/itzfabregas" target="_blank" rel="noreferrer" className='p-3 rounded-full bg-neutral-600 border-2 border-neutral-200 md:mr-16 mr-8 hover:bg-neutral-700'>Portifolio</a>
 
       </div>
     </nav>
