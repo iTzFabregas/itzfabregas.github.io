@@ -13,11 +13,11 @@ export default function Aboutme() {
 
   return (
     <div id='about' className='bg-neutral-900 text-white'>
-      <div className='flex md:flex-row flex-col justify-center items-center md:gap-16 gap-8 h-screen'>
+      <div className='relative flex md:flex-row flex-col justify-center items-center md:gap-16 gap-8 h-screen'>
 
-        <img src={logo} alt="capa" className='md:w-4/12 w-5/12 rounded-3xl' />
+        <img src={logo} alt="capa" className='relative md:w-4/12 w-5/12 rounded-3xl' />
 
-        <div className='md:text-left text-center md:w-2/5 w-4/5 font-bold text-xl'>
+        <div className='bg-[#171717] p-8 rounded-3xl relative md:text-left text-center md:w-2/5 w-4/5 font-bold text-'>
 
           <h1 className='text-gray-400 pb-1 font-normal'>Welcome to my site, I'm</h1>
           <h3 className='text-2xl text-white pb-1'>Fabrício Sampaio</h3>
