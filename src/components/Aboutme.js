@@ -12,7 +12,7 @@ export default function Aboutme() {
   }, [])
 
   return (
-    <div id='about' className='bg-neutral-900 text-white'>
+    <div id='about' className='text-white'>
       <div className='relative flex md:flex-row flex-col justify-center items-center md:gap-16 gap-8 h-screen'>
 
         <img src={logo} alt="capa" className='relative md:w-4/12 w-5/12 rounded-3xl' />
@@ -25,9 +25,9 @@ export default function Aboutme() {
           <p className='text-gray-500 font-normal pb-4 text-base'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint totam voluptate dolorum, quidem eligendi harum veritatis velit ullam, accusamus obcaecati sapiente quo! Ducimus, recusandae quisquam? Aut quae quia sapiente accusamus esse rerum nesciunt eaque! Dolor exercitationem deleniti molestiae, expedita animi provident laudantium accusamus odio natus obcaecati voluptatem ex non amet.</p>
 
           <ul className='flex gap-5 md:justify-start justify-center'>
-            <li className='text-4xl hover:text-neutral-500'><a href="https://github.com/iTzFabregas" target="_blank" rel="noreferrer"><FaGithub /></a></li>
-            <li className='text-4xl hover:text-neutral-500'><a href="https://www.linkedin.com/in/fabricio-sampaio" target="_blank" rel="noreferrer"><FaLinkedinIn /></a></li>
-            <li className='text-4xl hover:text-neutral-500'><a href="mailto:fabricio-sampaio@usp.br" target="_blank" rel="noreferrer"><FaEnvelope /></a></li>
+            <li className='text-4xl hover:text-neutral-500'><a href="https://github.com/iTzFabregas" target="_blank" rel="noreferrer" data-aos="zoom-in"><FaGithub /></a></li>
+            <li className='text-4xl hover:text-neutral-500'><a href="https://www.linkedin.com/in/fabricio-sampaio" target="_blank" rel="noreferrer" data-aos="zoom-in"><FaLinkedinIn /></a></li>
+            <li className='text-4xl hover:text-neutral-500'><a href="mailto:fabricio-sampaio@usp.br" target="_blank" rel="noreferrer" data-aos="zoom-in"><FaEnvelope /></a></li>
           </ul>
 
         </div>
