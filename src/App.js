@@ -49,7 +49,7 @@ function App() {
     }
 
     return (
-        <div className="relative h-screen w-full overflow-hidden">
+        <div className="relative h-fit sm:h-screen w-full overflow-hidden">
             <div
                 className="absolute inset-0 z-0"
                 style={{
@@ -61,12 +61,12 @@ function App() {
             />
 
             <div className="relative z-10 flex items-center justify-center w-full h-full">
-                <div className="flex flex-col gap-6 bg-slate-100 p-5 md:p-6 lg:p-7 xl:p-8 rounded-3xl shadow-md h-fit w-[90%] md:w-[80%] lg:w-[60%] 2xl:w-[45%]">
+                <div className="m-5 flex flex-col gap-6 bg-slate-100 p-5 md:p-6 lg:p-7 xl:p-8 rounded-3xl shadow-md h-fit w-[90%] md:w-[80%] lg:w-[60%] 2xl:w-[45%]">
 
                     {/* HEADER */}
                     <div className="flex justify-between items-center mb-5 gap-5">
                         <img src="./logo.png" alt="Semcomp" className=" w-[30%] sm:w-[20%] md:w-[15%]" />
-                        <p className="font-bold text-2xl sm:text-3xl text-[#0D2455]">Template contato Patrocínios</p>
+                        <p className="font-bold text-2xl sm:text-3xl text-[#0D2455]">Template Contato Patrocínios</p>
                         <p></p>
                     </div>
 
@@ -212,7 +212,7 @@ function App() {
                         <div className="bg-white p-4 rounded-lg max-w-md w-full relative m-5 ">
                             <div className="flex gap-12 items-center justify-between">
                                 <img src="./logo.png" alt="Semcomp" className="w-[10%]" />
-                                <p className="font-bold text-md sm:text-xl text-[#0D2455]">TEMPLATES GERADOS</p>
+                                <p className="font-bold text-sm sm:text-xl text-[#0D2455]">TEMPLATES GERADOS</p>
                                 <button 
                                     className="text-gray-500 hover:text-gray-700 text-2xl font-bold"
                                     onClick={() => setFlag(0)}>
