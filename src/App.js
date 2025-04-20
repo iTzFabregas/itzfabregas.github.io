@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { preencherTemplateBoby, preencherTemplateSubj } from "./template/template"
 
 function App() {
 
@@ -16,7 +17,6 @@ function App() {
 
     const [flag, setFlag] = useState(0);
 
-
     const gerarTemplate = () => {
 
         if (opcaoContato === "" ||
@@ -28,8 +28,14 @@ function App() {
                 return
         }
 
-        setSubjCopy("Assunto do Email")
-        setBodyCopy("Corpo do Email")
+        setSubjCopy(preencherTemplateSubj(opcaoContato))
+
+        setBodyCopy(preencherTemplateBoby(opcaoContato, {
+            nomePessoa: nomePessoa,
+            nomeSemcomper: nomeSemcomper,
+            nomeEmpresa: nomeEmpresa,
+            artigo: opcaoPronome
+        }))
 
         setFlag(500)
         return
@@ -201,7 +207,8 @@ function App() {
                                 </button>
                             </div>
                             <div>
-                                <p className="mt-5">Complete <strong>TODOS</strong> os campos antes de gerar o template! Mesmo que não seja necessário no seu caso.</p>
+                                <p className="mt-5">Complete <strong>TODOS</strong> os campos antes de gerar o template!</p>
+                                <p>Caso não seja necessário coloque um "_".</p>
                             </div>
                         </div>
                     </div>
