@@ -2,7 +2,8 @@ const subjTemplates = {
     1: `Oportunidade de Patrocínio – 28ª Semana da Computação da USP`,
     2: `_`,
     3: `_`,
-    4: `_`,
+    4: `Oportunidade de Patrocínio – 28ª Semana da Computação da USP`,
+    5: `_`,
 }
 
 const bodyTemplates = {
@@ -38,10 +39,22 @@ Atenciosamente,`,
 `Olá!
 
 Estou na organização da 28ª Semana da Computação (Semcomp) e gostaria de conversar sobre uma possível parceria! A Semcomp conecta estudantes de tecnologia a empresas.
-Vamos conversar?
-`,
+Vamos conversar?`,
 
-    4: 
+    4:
+`Olá {{nomePessoa}}, tudo bem?
+
+Me chamo {{nomeSemcomper}}, sou estudante da USP em São Carlos, e gostaria de convidar {{artigo}} {{nomeEmpresa}} para ser um dos patrocinadores da 28ª Semana da Computação (Semcomp), um dos maiores eventos estudantis de tecnologia do país.
+
+A Semcomp é um evento anual que conecta estudantes, profissionais e empresas do setor de tecnologia por meio de palestras, minicursos, hackathons, feira de recrutamento e outras atividades. É uma excelente oportunidade para gerar visibilidade, compartilhar conhecimento e se aproximar de talentos em formação.
+
+Patrocinando a Semcomp, {{artigo}} {{nomeEmpresa}} poderá reforçar sua marca junto a um público altamente qualificado, divulgar suas iniciativas e se conectar diretamente com estudantes que estão iniciando suas jornadas no mercado de tecnologia.
+
+Se tiver interesse, posso te enviar por e-mail nossa carta de patrocínio com todos os detalhes.
+
+Aguardo seu retorno!`,
+
+    5: 
 `Olá {{nomePessoa}} espero que esteja tudo bem com você!
 
 Há algumas semanas atrás, entrei em contato para discutir a possibilidade de participação d{{artigo}} {{nomeEmpresa}} na SEMCOMP. Você mencionou que iria verificar com sua equipe sobre essa oportunidade.

@@ -165,7 +165,7 @@ function App() {
                                     checked={opcaoContato === "2"}
                                     onChange={(e) => setOpcaoContato(e.target.value)}
                                 />
-                                Segundo Contato <strong>Email</strong>
+                                Segundo Contato
                             </label>
                             <label className="flex items-center gap-2">
                                 <input
@@ -175,7 +175,7 @@ function App() {
                                     checked={opcaoContato === "3"}
                                     onChange={(e) => setOpcaoContato(e.target.value)}
                                 />
-                                Primeiro Contato <strong>LinkedIn</strong>
+                                Primeiro Contato <strong>LinkedIn</strong> (Curto)
                             </label>
                             <label className="flex items-center gap-2">
                                 <input
@@ -183,6 +183,16 @@ function App() {
                                     name="contato"
                                     value="4"
                                     checked={opcaoContato === "4"}
+                                    onChange={(e) => setOpcaoContato(e.target.value)}
+                                />
+                                Primeito Contato <strong>LinkedIn</strong> (Longo)
+                            </label>
+                            <label className="flex items-center gap-2">
+                                <input
+                                    type="radio"
+                                    name="contato"
+                                    value="5"
+                                    checked={opcaoContato === "5"}
                                     onChange={(e) => setOpcaoContato(e.target.value)}
                                 />
                                 Cobrar Resposta
