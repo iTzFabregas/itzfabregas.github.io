@@ -195,7 +195,27 @@ function App() {
                                     checked={opcaoContato === "5"}
                                     onChange={(e) => setOpcaoContato(e.target.value)}
                                 />
-                                Cobrar Resposta
+                                <strong>Primeira</strong> Cobrança de Resposta
+                            </label>
+                            <label className="flex items-center gap-2">
+                                <input
+                                    type="radio"
+                                    name="contato"
+                                    value="6"
+                                    checked={opcaoContato === "6"}
+                                    onChange={(e) => setOpcaoContato(e.target.value)}
+                                />
+                                <strong>Segunda</strong> Cobrança de Resposta
+                            </label>
+                            <label className="flex items-center gap-2">
+                                <input
+                                    type="radio"
+                                    name="contato"
+                                    value="7"
+                                    checked={opcaoContato === "7"}
+                                    onChange={(e) => setOpcaoContato(e.target.value)}
+                                />
+                                <strong>Terceira</strong> Cobrança de Resposta
                             </label>
                         </div>
                     </fieldset>

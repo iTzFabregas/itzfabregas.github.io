@@ -4,6 +4,8 @@ const subjTemplates = {
     3: `_`,
     4: `Oportunidade de Patrocínio – 28ª Semana da Computação da USP`,
     5: `_`,
+    6: `_`,
+    7: `_`,
 }
 
 const bodyTemplates = {
@@ -65,10 +67,33 @@ Se, por algum motivo, você não puder tratar diretamente dessa questão, ficari
 
 Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta.
 
+Atenciosamente,`,
+
+    6:
+`Oi {{nomePessoa}}!
+
+Ainda estamos super empolgados com a possibilidade de ter {{artigo}} {{nomeEmpresa}} como parceira na 28ª Semana da Computação da USP. Sua participação seria muito relevante para nossos estudantes e para o sucesso do evento.
+
+Caso tenha dúvidas ou precise de qualquer apoio para avançar com isso internamente, estou por aqui.
+
+Aguardo seu retorno para sabermos se podemos seguir juntos nessa!
+
+Atenciosamente,`,
+
+    7:
+`Olá {{nomePessoa}},
+
+Tudo certo?
+
+Estou retomando o contato sobre a proposta de patrocínio para a Semcomp. Ainda temos vagas disponíveis e gostaríamos muito de contar com {{artigo}} {{nomeEmpresa}} nesta edição.
+
+Se houver interesse, consigo marcar uma rápida conversa ou enviar mais informações.
+
+Aguardo seu retorno!
+
 Atenciosamente,`
 
 }
-
 
 export function preencherTemplateBoby(opcao, dados) {
     return bodyTemplates[opcao].replace(/{{(.*?)}}/g, (_, chave) => {
