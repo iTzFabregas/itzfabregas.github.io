@@ -39,8 +39,7 @@ Atenciosamente,`,
 
     3: 
 `Olá!
-
-Estou na organização da 28ª Semana da Computação (Semcomp) e gostaria de conversar sobre uma possível parceria! A Semcomp conecta estudantes de tecnologia a empresas.
+Estou na organização da 28ª Semana da Computação da USP (Semcomp) e gostaria de conversar sobre uma possível parceria! A Semcomp conecta estudantes de tecnologia a empresas.
 Vamos conversar?`,
 
     4:
