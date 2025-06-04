@@ -165,7 +165,7 @@ function App() {
                                     checked={opcaoContato === "2"}
                                     onChange={(e) => setOpcaoContato(e.target.value)}
                                 />
-                                Segundo Contato
+                                Primeito Contato <strong>LinkedIn USP</strong> (Longo)
                             </label>
                             <label className="flex items-center gap-2">
                                 <input
@@ -175,7 +175,7 @@ function App() {
                                     checked={opcaoContato === "3"}
                                     onChange={(e) => setOpcaoContato(e.target.value)}
                                 />
-                                Primeiro Contato <strong>LinkedIn</strong> (Curto)
+                                Primeiro Contato <strong>LinkedIn RH</strong> (Curto)
                             </label>
                             <label className="flex items-center gap-2">
                                 <input
@@ -185,7 +185,7 @@ function App() {
                                     checked={opcaoContato === "4"}
                                     onChange={(e) => setOpcaoContato(e.target.value)}
                                 />
-                                Primeito Contato <strong>LinkedIn</strong> (Longo)
+                                Primeito Contato <strong>LinkedIn RH</strong> (Longo)
                             </label>
                             <label className="flex items-center gap-2">
                                 <input
@@ -195,7 +195,7 @@ function App() {
                                     checked={opcaoContato === "5"}
                                     onChange={(e) => setOpcaoContato(e.target.value)}
                                 />
-                                <strong>Primeira</strong> Cobrança de Resposta
+                                Segundo Contato
                             </label>
                             <label className="flex items-center gap-2">
                                 <input
@@ -205,7 +205,7 @@ function App() {
                                     checked={opcaoContato === "6"}
                                     onChange={(e) => setOpcaoContato(e.target.value)}
                                 />
-                                <strong>Segunda</strong> Cobrança de Resposta
+                                <strong>Primeira</strong> Cobrança de Resposta
                             </label>
                             <label className="flex items-center gap-2">
                                 <input
@@ -215,8 +215,19 @@ function App() {
                                     checked={opcaoContato === "7"}
                                     onChange={(e) => setOpcaoContato(e.target.value)}
                                 />
+                                <strong>Segunda</strong> Cobrança de Resposta
+                            </label>
+                            <label className="flex items-center gap-2">
+                                <input
+                                    type="radio"
+                                    name="contato"
+                                    value="8"
+                                    checked={opcaoContato === "8"}
+                                    onChange={(e) => setOpcaoContato(e.target.value)}
+                                />
                                 <strong>Terceira</strong> Cobrança de Resposta
                             </label>
+                            
                         </div>
                     </fieldset>
                     <div className="flex justify-center w-full">
