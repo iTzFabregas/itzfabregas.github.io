@@ -1,8 +1,8 @@
 const subjTemplates = {
-    1: `Oportunidade de Patrocínio – 28ª Semana da Computação da USP`,
+    1: `Oportunidade de Patrocínio – 29ª Semana da Computação da USP`,
     2: `_`,
     3: `_`,
-    4: `Oportunidade de Patrocínio – 28ª Semana da Computação da USP`,
+    4: `Oportunidade de Patrocínio – 29ª Semana da Computação da USP`,
     5: `_`,
     6: `_`,
     7: `_`,
@@ -33,13 +33,13 @@ Legal ver gente da USP na {{nomeEmpresa}}. Estou na organização da Semana da C
 
     3: 
 `Olá!
-Estou na organização da 28ª Semana da Computação da USP (Semcomp) e gostaria de conversar sobre uma possível parceria! A Semcomp conecta estudantes de tecnologia a empresas.
+Estou na organização da 29ª Semana da Computação da USP (Semcomp) e gostaria de conversar sobre uma possível parceria! A Semcomp conecta estudantes de tecnologia a empresas.
 Vamos conversar?`,
 
     4:
 `Olá {{nomePessoa}}, tudo bem?
 
-Me chamo {{nomeSemcomper}}, sou estudante da USP em São Carlos, e gostaria de convidar {{artigo}} {{nomeEmpresa}} para ser um dos patrocinadores da 28ª Semana da Computação (Semcomp), um dos maiores eventos estudantis de tecnologia do país.
+Me chamo {{nomeSemcomper}}, sou estudante da USP em São Carlos, e gostaria de convidar {{artigo}} {{nomeEmpresa}} para ser um dos patrocinadores da 29ª Semana da Computação (Semcomp), um dos maiores eventos estudantis de tecnologia do país.
 
 A Semcomp é um evento anual que conecta estudantes, profissionais e empresas do setor de tecnologia por meio de palestras, minicursos, hackathons, feira de recrutamento e outras atividades. É uma excelente oportunidade para gerar visibilidade, compartilhar conhecimento e se aproximar de talentos em formação.
 
@@ -52,7 +52,7 @@ Aguardo seu retorno!`,
     5: 
 `Olá {{nomePessoa}}, espero que esteja bem!
 
-Escrevo para reforçar nosso convite para a 28ª Semana da Computação (Semcomp)! Sei que a rotina pode ser corrida, então queria verificar se teve a oportunidade de analisar nossa proposta de parceria.
+Escrevo para reforçar nosso convite para a 29ª Semana da Computação (Semcomp)! Sei que a rotina pode ser corrida, então queria verificar se teve a oportunidade de analisar nossa proposta de parceria.
 
 Acredito que essa pode ser uma ótima chance para {{artigo}} {{nomeEmpresa}} fortalecer sua marca e se conectar com estudantes talentosos da área de tecnologia. Caso tenha interesse, fico à disposição para uma conversa rápida e para esclarecer qualquer dúvida.
 
@@ -63,7 +63,7 @@ Atenciosamente,`,
     6: 
 `Olá {{nomePessoa}} espero que esteja tudo bem com você!
 
-Há algumas semanas atrás, entrei em contato para discutir a possibilidade de participação d{{artigo}} {{nomeEmpresa}} na SEMCOMP. Você mencionou que iria verificar com sua equipe sobre essa oportunidade.
+Há algumas semanas atrás, entrei em contato para discutir a possibilidade de participação d{{artigo}} {{nomeEmpresa}} na Semcomp. Você mencionou que iria verificar com sua equipe sobre essa oportunidade.
 
 Gostaria de saber se já houve alguma atualização sobre esse assunto. Caso contrário, ficarei feliz em fornecer qualquer informação adicional que possa ser útil para você e sua equipe na tomada de decisão.
 
@@ -76,7 +76,7 @@ Atenciosamente,`,
     7:
 `Oi {{nomePessoa}}!
 
-Ainda estamos super empolgados com a possibilidade de ter {{artigo}} {{nomeEmpresa}} como parceira na 28ª Semana da Computação da USP. Sua participação seria muito relevante para nossos estudantes e para o sucesso do evento.
+Ainda estamos super empolgados com a possibilidade de ter {{artigo}} {{nomeEmpresa}} como parceira na 29ª Semana da Computação da USP. Sua participação seria muito relevante para nossos estudantes e para o sucesso do evento.
 
 Caso tenha dúvidas ou precise de qualquer apoio para avançar com isso internamente, estou por aqui.
 
